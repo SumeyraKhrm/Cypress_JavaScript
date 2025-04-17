@@ -21,3 +21,5 @@ describe('locate Alma', () => {
 //cy.get('#APjFqb') yani id ise # koymak gerekir
 //class almissak . nokta koymak gerekir
 
+
+

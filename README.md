@@ -6,3 +6,4 @@
 
 # npx cypress run -- spec 'cypress/e2e/day02' : istenilen klasordeki tum tesleri calistirma
 # npx cypress run -- spec 'cypress/e2e/day02' -- browser chrome
+# npx cypress run -- browser chrome

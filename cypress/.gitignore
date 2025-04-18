@@ -1,6 +1,6 @@
-cypress/screenshots
-cypress/videos
-cypress/fixtures
+cypress/screenshots/
+cypress/videos/
+cypress/fixtures/
 
 cypress/results/
 

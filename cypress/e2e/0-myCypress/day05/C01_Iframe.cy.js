@@ -17,9 +17,4 @@ describe('', () => {
         cy.screenshot()
     });
 
-
-    it('', () => {
-        
-    });
-    
 });

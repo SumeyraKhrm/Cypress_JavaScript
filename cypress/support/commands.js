@@ -24,6 +24,12 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-require('cypress-iframe');
 
+Cypress.Commands.add('FlavorfetchLogin', (username, password) => { 
+   cy.visit('https://qa.flavorfetch.com/account/login')
+   cy.get(':nth-child(1) > .required').type(username)
+   cy.get('.change_field_password > label.required').type(password) 
+   cy.get('.btn-green').click()
+
+})
 

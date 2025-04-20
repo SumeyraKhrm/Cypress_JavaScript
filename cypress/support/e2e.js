@@ -17,3 +17,5 @@
 import './commands'
 
 require('cypress-iframe');
+
+//require('@faker-js/faker') ya da buraya da eklenebilir

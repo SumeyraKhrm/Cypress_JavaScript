@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@faker-js/faker": "^9.7.0",
     "cypress": "^14.3.0",
     "cypress-iframe": "^1.0.1"
   },
@@ -172,7 +173,11 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test.dashboard":"npx cypress run --record --key 7c19c648-49cf-4746-8cce-6747e3564baa",
+    "dashboard_day04":"npx cypress run --spec 'cypress/e2e/0-myCypress/day04' --record --key '7c19c648-49cf-4746-8cce-6747e3564baa'",
+    "dashboard_day04_chrome":"npx cypress run --spec 'cypress/e2e/0-myCypress/day04' --record --key '7c19c648-49cf-4746-8cce-6747e3564baa'  --browser 'chrome'"
+
   },
   "keywords": [],
   "author": "",
